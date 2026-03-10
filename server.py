@@ -3,8 +3,6 @@ import ssl
 import os
 import base64
 from Crypto.Cipher import AES
-from Crypto import Random
-import mysql.connector
 import sqlite3
 
 def generate_new_key(client_ip):
